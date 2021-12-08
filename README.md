@@ -14,9 +14,7 @@ At this moment, the `output` folder will contain ~1.8 GB of photos.
 
 Each photo has this format: `"year | description | id | place".jpg`.
 
-Example: `1954 | O parte a delegaţiilor de peste hotare participante la funeraliile lui Gheorghe Gheorghiu-Dej. | #A001 | Bucureşti.jpg`
-
-
+Example: `1956 | Imagine de la Congresul al IX –lea al P.C.R. | #A025 | Bucureşti.jpg`.
 
 ## Technologies
 Project is created with:
