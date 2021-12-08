@@ -1,12 +1,41 @@
-# fototeca_comunismului
+# fototeca
+Python Script used for downloading the whole gallery from https://fototeca.iiccmer.ro/fototeca/.
 
-BUSINESS WISE:
-INPUT:
-Ceea ce ne-ar ajuta pe noi ar fi un soft care să dowloadeze toate fotografiile și să le denumească automat cu Anul în care au fost făcute + Descriere + Locul în care au fost făcute. Un exemplu ar fi: "1965 / Congresul al IX –lea al P.C.R.- C.C. al P.C.R., ales de către Congres / București". Anul se gășește în Câmpul "Cotă", descrierea este în câmpul "Conținut", iar locul în câmpul Data/loc. Astfel, am putea obține o aranjare cronologică a fotografiilor și ne-ar fi mult mai ușor să mergem, de exemplu, în folderul anului 1965 și să vedem toate fotografiile făcute în acel an.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Usage](#usage)
 
-TASKS:
-- denumire fisier an_descriere_loc. ex: "1965 / Congresul al IX –lea al P.C.R.- C.C. al P.C.R., ales de către Congres / București"
-- anul se gaseste in cota *
-- descrierea = continut
-- locul = data/loc
-- aranjare in foldere dupa ani / continut
+## General info
+After running the script, you can see the downloaded photos sorted by year in the `output` folder.
+
+At this moment, the `output` folder will contain ~1.8 GB of photos.
+
+Each photo has this format: `"year | description | id | place".jpg`.
+
+Example: `1956 | Imagine de la Congresul al IX –lea al P.C.R. | #A025 | Bucureşti.jpg`.
+
+## Technologies
+Project is created with:
+* Ubuntu: 20.04
+* Python: 3.8.10
+* PyInstaller: 4.7
+
+## Setup
+If you are using Git, you can clone / fork this repository.
+If you are not using Git:
+  1) Click on `Code` green button from the main page
+  2) Download ZIP
+  3) Unzip the downloaded file
+
+## Usage
+Open a Command Line / Terminal in the `fototeca` folder, which contains all the `.py` files.
+
+Based on your OS, you can run this script with:
+
+Linux: `./fototeca`
+
+macOS: 
+
+Windows: 
